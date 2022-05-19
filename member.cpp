@@ -1,4 +1,5 @@
-     void addAccountDetails(){};
+     #include "member.h"
+	   void addAccountDetails(){};
 	 void UpdateAccount(){};
      void updateDetails () {};
      void printMemberDetails() {}; 
