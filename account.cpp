@@ -1,5 +1,6 @@
 //Account class implementation
 #include "account.h"
+#include<string.h>
 Account::Account() 
    {
     strcpy(name,"");
@@ -14,3 +15,5 @@ Account::Account()
 
    void Account::UpdateAccount(){
    };
+  
+   Account::~Account(){};
