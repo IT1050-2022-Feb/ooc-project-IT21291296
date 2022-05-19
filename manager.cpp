@@ -1,4 +1,5 @@
 #include "manager.h"
+#include<string.h>
 Manager::Manager(){
 	strcpy(name," ");
     strcpy(address," ");
@@ -27,3 +28,4 @@ Manager::Manager(){
     void Manager::RemoveEmployees(){
 	};
 
+    Manager::~Manager(){};
